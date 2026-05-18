@@ -40,3 +40,4 @@ wofi
 xdg-desktop-portal-hyprland
 yay-bin
 z.lua
+qrencode

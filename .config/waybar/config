@@ -1,0 +1,91 @@
+{
+    "layer": "top",
+    "position": "top",
+    "mod": "dock",
+    "exclusive": true,
+    "passthrough": false,
+    "gtk-layer-shell": true,
+    "height": 40,
+    "margin-top": 10,
+    "margin-left": 20,
+    "margin-right": 20,
+    "modules-left": ["hyprland/workspaces", "hyprland/window"],
+    "modules-center": ["clock", "custom/weather"],
+    "modules-right": ["network", "bluetooth", "cpu", "memory", "pulseaudio", "tray", "custom/power"],
+    "hyprland/workspaces": {
+        "disable-scroll": true,
+        "all-outputs": true,
+        "on-click": "activate",
+        "format": "{icon}",
+        "format-icons": {
+            "1": "1",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "default": ""
+        }
+    },
+    "hyprland/window": {
+        "format": "{}",
+        "max-length": 40
+    },
+    "tray": {
+        "icon-size": 18,
+        "spacing": 10
+    },
+    "clock": {
+        "format": "  {:%I:%M %p     %a, %b %e}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+    },
+    "cpu": {
+        "format": " {usage}%",
+        "tooltip": false
+    },
+    "memory": {
+        "format": " {}%"
+    },
+    "bluetooth": {
+        "format": " {status}",
+        "format-connected": " {num_connections} connected",
+        "tooltip-format": "{controller_alias}\t{controller_address}\n\n{num_connections} connected",
+        "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{num_connections} connected\n\n{device_enumerate}",
+        "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
+        "tooltip-format-enumerate-connected-battery": "{device_alias}\t{device_address}\t{device_battery_percentage}%",
+        "on-click": "blueman-manager"
+    },
+    "network": {
+        "format-wifi": "  {essid}",
+        "format-ethernet": "󰈀  {ipaddr}",
+        "format-disconnected": "⚠ Disconnected"
+    },
+    "pulseaudio": {
+        "format": "{icon} {volume}%",
+        "format-muted": "󰝟 Muted",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", "", ""]
+        }
+    },
+    "custom/weather": {
+        "exec": "/home/ibnyusrat/.config/waybar/weather.py",
+        "return-type": "json",
+        "interval": 1800
+    },
+    "custom/power": {
+        "format": " ",
+        "tooltip": false,
+        "menu": "on-click",
+        "menu-file": "/home/ibnyusrat/.config/waybar/power_menu.xml",
+        "menu-actions": {
+            "screen_off": "sleep 1 && hyprctl dispatch dpms off",
+            "reboot": "systemctl reboot",
+            "shutdown": "systemctl poweroff"
+        }
+    }
+}

@@ -38,5 +38,9 @@ stow -t ~/.config .config
 # Stow the home directory files
 stow -t ~/ home
 
+# Stow the .local directory
+mkdir -p ~/.local
+stow -t ~/.local local
+
 echo "Installation complete!"
 echo "Note: You might need to set up your ZSH custom plugins, Espanso, and NVM manually."

@@ -1,8 +1,5 @@
 matches:
-  - trigger: ":hello"
-    replace: "world"
-    force_clipboard: true
-
+  
   - trigger: "aoa"
     replace: "السلام عليكم ورحمة الله وبركاته"
     word: true

@@ -42,5 +42,8 @@ stow -t ~/ home
 mkdir -p ~/.local
 stow -t ~/.local local
 
+# Update icon cache
+gtk-update-icon-cache -f -t ~/.local/share/icons/hicolor
+
 echo "Installation complete!"
 echo "Note: You might need to set up your ZSH custom plugins, Espanso, and NVM manually."

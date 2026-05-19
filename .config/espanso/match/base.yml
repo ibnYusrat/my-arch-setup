@@ -3,3 +3,12 @@ matches:
   - trigger: "aoa"
     replace: "السلام عليكم ورحمة الله وبركاته"
     word: true
+
+  - trigger: ":think"
+    replace: "🤔"
+  
+  - trigger: "->"
+    replace: "→"
+
+  - trigger: "<-"
+    replace: "←"

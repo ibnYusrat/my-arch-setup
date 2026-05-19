@@ -4,8 +4,18 @@ matches:
     replace: "السلام عليكم ورحمة الله وبركاته"
     word: true
 
+  - trigger: "ws"
+    replace: "وعلیکم السلام ورحمتہ اللہ وبرکاتہ"
+    word: true
+
   - trigger: ":think"
     replace: "🤔"
+  
+  - trigger: ":sad"
+    replace: "😔"
+
+  - trigger: ":tired"
+    replace: "🫩"
   
   - trigger: "->"
     replace: "→"

@@ -22,3 +22,7 @@ matches:
 
   - trigger: "<-"
     replace: "←"
+
+  - trigger: "ia"
+    word: true
+    replace: "InshaAllah"

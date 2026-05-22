@@ -1,0 +1,10 @@
+# Ignore transient system files
+local/share/recently-used.xbel
+local/share/user-places.xbel*
+local/share/sddm/*.log
+local/share/baloo/
+local/share/Trash/
+local/share/hyprland/lastNag
+local/share/hyprland/lastVersion
+**/*.log
+**/*.xbel*

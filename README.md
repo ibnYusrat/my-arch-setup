@@ -10,8 +10,7 @@ A highly customized, script-driven, and beautiful Hyprland setup for Arch Linux.
 
 ## 🎥 Demo
 
-*(Add your `demo.mp4` or a GIF here so people can see the desktop in action!)*
-> **Note:** To embed a video directly in GitHub markdown, you can just drag and drop your `demo.mp4` right into this section while editing it on GitHub.com.
+[![Watch the video](https://img.youtube.com/vi/G4gTs87PaSE/0.jpg)](https://youtu.be/G4gTs87PaSE)
 
 ---
 

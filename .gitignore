@@ -9,8 +9,17 @@ local/share/hyprland/lastVersion
 **/*.log
 **/*.xbel*
 local/share/pki/
-local/share/icons/hicolor/icon-theme.cache
+local/share/icons/
 local/share/applications/mimeapps.list
 local/share/dolphin/view_properties/
 local/share/flatpak/db
 .config/hypr/.wallpaper_state
+
+# Ignore binaries and libraries
+local/bin/
+local/lib/
+local/share/remmina/
+
+# Ignore media folders
+home/Photos/
+home/Pictures/

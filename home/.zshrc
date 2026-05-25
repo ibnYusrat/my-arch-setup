@@ -122,3 +122,8 @@ export NVM_DIR="$HOME/.nvm"
 eval "$(lua ~/.z-lua/z.lua --init zsh)"
 
 [ -f ~/.zshrc.local ] && source ~/.zshrc.local
+
+
+# Added by Antigravity CLI installer
+export PATH="/home/ibnyusrat/.local/bin:$PATH"
+export PATH="/home/ibnyusrat/.local/bin:$PATH"

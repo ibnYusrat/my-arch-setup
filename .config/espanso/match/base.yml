@@ -26,3 +26,7 @@ matches:
   - trigger: "ia"
     word: true
     replace: "InshaAllah"
+
+  - trigger: ":conf"
+    word: true
+    replace: "😖"

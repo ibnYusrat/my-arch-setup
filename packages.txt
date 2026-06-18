@@ -3,11 +3,11 @@ blueman
 bluez
 bluez-utils
 cmatrix
-dolphin
 dunst
 espanso-wayland
 firefox
 git
+gnome-menus
 google-chrome
 grim
 heroic-games-launcher-bin
@@ -28,6 +28,7 @@ nvtop
 nwg-dock-hyprland
 nwg-look
 otf-font-awesome
+papirus-icon-theme
 pavucontrol
 qrencode
 remmina
@@ -36,8 +37,11 @@ sddm
 sddm-sugar-candy-git
 slurp
 socat
+thunar
 ttf-jameel-noori-nastaleeq
 ttf-scheherazade-new
+tumbler
+viewnior
 waybar
 wget
 woff2-font-awesome

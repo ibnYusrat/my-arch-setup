@@ -1,0 +1,13 @@
+{
+    "$fdo_created": "1781384312",
+    "$fdo_modified": "1781384312",
+    "Secret Service/Chrome Safe Storage": {
+        "$fdo_created": "1781384312",
+        "$fdo_mime_type": "text/plain",
+        "$fdo_modified": "1781384312",
+        "attributes": {
+            "application": "chrome",
+            "xdg:schema": "chrome_libsecret_os_crypt_password_v2"
+        }
+    }
+}
